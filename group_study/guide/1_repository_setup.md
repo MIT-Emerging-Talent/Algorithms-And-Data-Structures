@@ -6,8 +6,7 @@ in place. This step isn't very hard but everything will go more smoothly if you 
 ## Create and Share a Repository
 
 As a team you will choose the name for your project's repository and select
-someone from your team to be the repo owner. This person will create a new
-repository from the template \(or an empty one if you're not using a template\):
+someone from your team to be the repo owner. This person will fork this repository and configure it for collaboration:
 
 - Public face of your repository (optional)
   - Change your repository's name
