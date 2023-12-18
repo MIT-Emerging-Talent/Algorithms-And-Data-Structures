@@ -1,4 +1,4 @@
-#include "climb.h"
+#include "climb_stairs.h"
 #include "gtest/gtest.h"
 
 TEST(TestClimbBasic, TestWith0) {
