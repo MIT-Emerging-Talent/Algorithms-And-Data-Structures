@@ -4,6 +4,7 @@
 <a href="https://github.com/djeada/Data-Structures/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/djeada/Data-Structures"></a>
 <a href="https://github.com/djeada/Data-Structures/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/djeada/Data-Structures"></a>
 <a href=""><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+
 </div>
 
 This repository contains a collection of projects in C++ and Python that implement various data structures and algorithms. The projects are organized by language and topic, and include detailed explanations and examples to help you understand how they work.
@@ -20,10 +21,10 @@ My code is written in two programming languages I really enjoy, C++ and Python. 
 
 The following requirements are necessary to build and run the code in this repository:
 
-* For C++ projects:
+- For C++ projects:
   - A C++ compiler supporting C++14
   - CMake 3.15 or later
-* For Python projects:
+- For Python projects:
   - Python 3.10 or later
 
 No additional libraries or modules are required.
@@ -89,7 +90,6 @@ For convenience, this repository includes a utility script named `run_tests.sh`.
 - **To run all _C++_ tests:** `./run_tests.sh --cpp`
 - **To read all options from terminal:** `./run_tests.sh --help`
 
-
 ## Code Formatting Conventions
 
 Consistent code formatting is essential for maintaining readability and understanding of the codebase. Therefore, we have adopted specific formatting guidelines for each programming language used in this repository.
@@ -126,17 +126,18 @@ This command formats all Python files in the current directory and its subdirect
 
 ## Notes
 
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/basic_concepts.md">Basic concepts.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/data_structures.md">Data structures.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/graphs.md">Graph algorithms.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/backtracking.md">Backtracking.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/dynamic_programming.md">Dynamic programming.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/sorting.md">Sorting.</a>
-* <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/brain_teasers.md">Brain teasers.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/basic_concepts.md">Basic concepts.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/data_structures.md">Data structures.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/graphs.md">Graph algorithms.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/backtracking.md">Backtracking.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/dynamic_programming.md">Dynamic programming.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/sorting.md">Sorting.</a>
+- <a href="https://github.com/djeada/Algorithms-And-Data-Structures/blob/master/notes/brain_teasers.md">Brain teasers.</a>
 
 ## List of projects
 
 ### Data structures
+
 <table>
     <thead>
         <tr>
@@ -203,8 +204,8 @@ This command formats all Python files in the current directory and its subdirect
     </tbody>
 </table>
 
-
 ### Graphs
+
 <table>
     <thead>
         <tr>
@@ -272,6 +273,7 @@ This command formats all Python files in the current directory and its subdirect
 </table>
 
 ### Backtracking
+
 <table>
     <thead>
         <tr>
@@ -339,6 +341,7 @@ This command formats all Python files in the current directory and its subdirect
 </table>
 
 ### Dynamic Programming
+
 <table>
     <thead>
         <tr>
@@ -436,6 +439,7 @@ This command formats all Python files in the current directory and its subdirect
 </table>
 
 ### Sorting
+
 <table>
     <thead>
         <tr>
@@ -479,6 +483,7 @@ This command formats all Python files in the current directory and its subdirect
 </table>
 
 ### Brain Teasers
+
 <table>
     <thead>
         <tr>
@@ -581,34 +586,47 @@ This command formats all Python files in the current directory and its subdirect
     </tbody>
 </table>
 
+## Clearing Solutions
+
+For convenience, this repository includes a utility script named `clear_solutions.sh` that will erase all Python and/or C++ solutions so you can solve and document the challenges yourself. Test cases and helper files will not be cleared. You can optionally clear all challenge READMEs to document your own solutions.
+
+Execute the following commands from the repository's root to clear solutions:
+
+- **To read all options from terminal:** `./clear_solutions.sh` or `./clear_solutions.sh --help`
+- **To clear all _Python_ solutions:** `./clear_solutions.sh --python`
+- **To clear all _C++_ solutions:** `./clear_solutions.sh --cpp`
+- **To clear all _C++_ and _Python_ solutions:** `./clear_solutions.sh --cpp --python`
+- **To clear READMEs for selected langauge(s):** `./clear_solutions.sh --<language> --readme`
 
 ## References
 
-* L. V. Narashima Prasad, E. Kishna Rao Patro "<i>Lecture Notes on Data Structures using C</i>" 
-* Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. "<i>Introduction to Algorithms, 3rd Edition (The MIT Press)</i>"
-* Steven Halim "<i>Competitive Programming 3</i>" 
-* Narasimha Karumanchi "<i>Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles</i>" 
-* Brian Kernighan, Dennis Ritchie "<i>The C Programming Language</i>" 
-* Steven Skiena, Miguel Revilla "<i>Programming Challenges: The Programming Contest Training Manual</i>" 
-* Antti Laaksonen "<i>  Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) </i>" 
-* Nite Nimajneb "<i>The Hitchhiker’s Guide to the Programming Contests</i>" 
-* http://cslibrary.stanford.edu/
-* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/
-* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-slides-and-files/index.htm
-* https://www.cs.bham.ac.uk/~jxb/DSA/
-* https://www.ics.uci.edu/~eppstein/161/syl.html
-* http://www.columbia.edu/~cs2035/oldcourses.html
-* https://www.cs.auckland.ac.nz/courses/compsci220s1t/lectures/lecturenotes/GG-lectures/
-* https://sp19.datastructur.es/
-* https://www.csc.kth.se/~viggo/problemlist
-* https://cp-algorithms.com/
-* https://www.personal.kent.edu/~rmuhamma/Compgeometry/compgeom.html
-* https://codeahoy.com/learn/cprogramming/toc/
+- L. V. Narashima Prasad, E. Kishna Rao Patro "<i>Lecture Notes on Data Structures using C</i>"
+- Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. "<i>Introduction to Algorithms, 3rd Edition (The MIT Press)</i>"
+- Steven Halim "<i>Competitive Programming 3</i>"
+- Narasimha Karumanchi "<i>Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles</i>"
+- Brian Kernighan, Dennis Ritchie "<i>The C Programming Language</i>"
+- Steven Skiena, Miguel Revilla "<i>Programming Challenges: The Programming Contest Training Manual</i>"
+- Antti Laaksonen "<i> Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) </i>"
+- Nite Nimajneb "<i>The Hitchhiker’s Guide to the Programming Contests</i>"
+- http://cslibrary.stanford.edu/
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-slides-and-files/index.htm
+- https://www.cs.bham.ac.uk/~jxb/DSA/
+- https://www.ics.uci.edu/~eppstein/161/syl.html
+- http://www.columbia.edu/~cs2035/oldcourses.html
+- https://www.cs.auckland.ac.nz/courses/compsci220s1t/lectures/lecturenotes/GG-lectures/
+- https://sp19.datastructur.es/
+- https://www.csc.kth.se/~viggo/problemlist
+- https://cp-algorithms.com/
+- https://www.personal.kent.edu/~rmuhamma/Compgeometry/compgeom.html
+- https://codeahoy.com/learn/cprogramming/toc/
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
