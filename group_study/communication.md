@@ -1,4 +1,11 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+<!--
+    this template is for inspiration, feel free to change it however you like!
+
+    Careful! be sure to protect your privacy when filling out this document
+        everything you write here will be public
+        so share only what you are comfortable sharing online
+        you can share the rest in confidence with you group by another channel
+-->
 
 # Communication
 

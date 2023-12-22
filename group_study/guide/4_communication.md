@@ -16,4 +16,8 @@ This repository has a _template issue_ you can use to create a meeting agenda. E
 
 ## `/group_study/communication.md`
 
+> Careful! Be sure to protect your privacy when filling out this document.
+> Everything you write here will be public, so share only what you are comfortable sharing online.
+> You can share the rest in confidence with you group by another channel.
+
 Fill out the template file in [/group_study/communication.md](../communication.md) as a group, either in a call or asynchronously.
