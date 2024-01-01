@@ -15,6 +15,6 @@ For example, do you want to;
 
 There are no wrong answers, it's ok if everyone has different objectives! Shat's important is that everyone has the same expectations.
 
-## `/group_study/README.md`
+## `/group_study/learning_goals.md`
 
-Write your group's objectives for these exercises in [/group_study/README.md](../README.md). If different members have different objectives, you can write this in the README. You don't need to have one description for everyone.
+Write your group's objectives for these exercises in [/group_study/learning_goals.md](../learning_goals.md). If different members have different objectives, you can write this in the `learning_goals.md` file. You don't need to have one description for everyone!
