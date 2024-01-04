@@ -1,8 +1,10 @@
 # Group Study: Guide
 
-... a guide for coordinating as a group, setting up your repository, and learning remote collaboration workflows ...
+A brief guide to collaboration in this repository. It covers repository configuration, setting learning goals, basic collaboration documents, and a branching workflow.
 
-[video link]()
+There is hopefully enough in here to get you started, but we know there are still gaps. Let us know what's missing so we can fill it in!
+
+---
 
 ## Suggested Study
 
