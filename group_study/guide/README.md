@@ -8,6 +8,12 @@ There is hopefully enough in here to get you started, but we know there are stil
 
 ## Suggested Study
 
+Emerging Talent workshops that may be helpful:
+
+- [Documenting and Testing](https://github.com/MIT-Emerging-Talent/documenting-and-testing)
+- [Debugging](https://github.com/MIT-Emerging-Talent/debugging/)
+- [TDD with LLMs](https://github.com/MIT-Emerging-Talent/test-driven-development-with-large-language-models)
+
 ### Local Development Without Git
 
 #### Visual Studio Code (VSCode)
