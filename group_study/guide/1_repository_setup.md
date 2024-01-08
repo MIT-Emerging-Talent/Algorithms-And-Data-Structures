@@ -3,7 +3,7 @@
 Before diving into your project make sure your team has all the practical things
 in place. This step isn't very hard but everything will go more smoothly if you take the time to do this correctly at the beginning.
 
-## Create and Share a Repository
+## Setup and Share a Repository
 
 As a team you will choose the name for your project's repository and select
 someone from your team to be the repo owner. This person will fork this repository and configure it for collaboration:
